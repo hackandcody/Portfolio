@@ -1,0 +1,12 @@
+.box {
+  border: 2px solid red;
+  min-height: 75px;
+  
+
+}
+#box-1{
+  background-color: green
+}
+p{
+  color:red;
+}

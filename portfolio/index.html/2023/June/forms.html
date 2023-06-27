@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rasheed Mitchell's Portfolio - Forms & Multimedia</title>
+    <link rel="stylesheet" href="css/resumeman.css">
+  </head>
+  <body>
+<h1>Rasheed Mitchell Portfolio - Forms & Multimedia</h1>
+<section>
+  <p>Making a forms page to add to my coding portfolio. Once I'm finished I will be able to show you I can code forms.</p>
+</section>
+<hr>
+<section>
+  <h3 class="sectionHeader">Forms</h3>
+  <form class="" action="#" method="post" enctype="multipart/form-data">
+    <table>
+      <tr>
+        <!-- left column -->
+        <td>
+          <table>
+            <tr>
+              <td class="noborder">First Name</td>
+              <td class="noborder"><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+              <td class="noborder">Last Name</td>
+              <td class="noborder"><input type="text" name="lastName"></td>
+            </tr>
+            <tr>
+              <td class="noborder">Email Address</td>
+              <td class="noborder"><input type="email" name="myEmail"></td>
+            </tr>
+            <tr>
+              <td class="noborder">Password</td>
+              <td class="noborder"><input type="password" name="myPassword"></td>
+            </tr>
+            <tr>
+              <td class="noborder">Birth Date</td>
+              <td class="noborder"><input type="date" name="birthDate"></td>
+            </tr>
+            <tr>
+              <td class="noborder">Best Contact Time:</td>
+              <td class="noborder">
+                <input type="radio" name="contactTime"  id="contactAny" value="any"><label for="contactAny">Anytime</label>
+                <input type="radio" name="contactTime"  id="contactPm" value="pm"><label for="contactPm">PM</label>
+                <input type="radio" name="contactTime"  id="contactAm" value="am"><label for="contactPm">AM</label>
+                <input type="radio" name="contactTime"  id="contactCustom" value="custom"><label for="contactCustom">Specific</label>
+                <input type="time" name="customTime">
+              </td>
+            </tr>
+          </table>
+
+        </td>
+        <!-- right column -->
+        <td>
+          <table>
+            <tr>
+              <td class="noborder">Checkboxes</td>
+              <td class="noborder">
+                <input type="checkbox" name="demoCheckbox" id="demoCheck1" value="1"> <label for="demoCheck1">1</label>
+                <input type="checkbox" name="demoCheckbox" id="demoCheck2" value="2"> <label for="demoCheck1">2</label>
+                <input type="checkbox" name="demoCheckbox" id="demoCheck3" value="3"> <label for="demoCheck1">3</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="noborder">Select list</td>
+              <td class="noborder">
+                <select name="mySelectList" multiple size="2">
+                  <option value="1"> Getting Started</option>
+                  <option value="2">Without You</option>
+                  <option value="3">Just something to fill</option>
+                  <option value="4">Get money or stay out the way</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="noborder">Textarea:</td>
+              <td class="noborder">
+                <textarea name="myTextarea" rows="4" cols="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+              <td class="noborder">Upload:</td>
+              <td class="noborder"><input type="file" name="myFile">
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <input type="reset" name="resetBtn" value="RESET FORM"> &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" name="submitBtn" value="SUBMIT FORM">
+  </form>
+</section>
+<hr>
+<section>
+  <h3 class="sectionHeader">Multimedia</h3>
+  <img src="media/MMedia/JAC.png" alt="Just Another Company">
+  <audio src="media/MMedia/01 Wyclef Jean 2.mp3" controls>
+    Time to update your browser. Audio element support needed.
+
+  </audio>
+  <video src="media/MMedia/Y2Mate.is - Money flying green screen-ufivLkXZGEs-720p-1628089448407 copy.mp4" controls width="98%">
+
+  </video>
+</section>
+  </body>
+</html>
